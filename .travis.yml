@@ -17,6 +17,6 @@ deploy:
     secure: SU718t+IQkaivPhlYJrsfvaQrl3kImpLpFQY09XsukRoHjbpzP8QQkoFgWQky7O7GF1ouzLhVzR9Q43q+CxyxZkpqMyipxGHR3HjYOWi+8QKBgyFEX1cT3Hmg/nyvzjRgFPE96ns4u5YbVlC6MLdAG5zG/7qCdiwwBoFd/2Xf6wHQjE14EyN9T2Knii9TbKBg1nB+nD4Nj5EEhPqCHWHBCuVeKYWIKF7dblZl84TQxM7b3c4iDnf0pLy5fG31RpZcCziLoSnSDGRJxwKCXPFeDCEXy+wh33WBnD1PhiCKk0/1hsp8+B/ikHFNoZ0CXlrrwr7XB/sg8yBoVViOt++S0IfJguYXycmGUGZZtEMSbsSB/DXrlFwzLCIHqVVfLPjbuavo1QH7wIqB8RGWARbhoqS9Wtn9mjB5YVX3QBHdYvhLFxObiE+tytY+M9R81it0XVpf6rq7QUWmJ0hzMR1Z+xNp/Fh95bNEbdy3eOSGGsXR0zbkZF/IxTImNE29hHF8PPSm867VTwpwqMlJ05z84w5PC6pG35ytEym1TsmfbtXy29wN0lDBD1Fk6hCJ216FSAz6BE5zJlCXs3dM29harficsSM/YFIw3lCyJ0qeXy1IACsdM03tI9qYUdI1W7VHqels6ZPt45fwZW2nRKVpU2kmWARK1MCbqAhKjwpbO4=
   bucket: buggythestudent.com
   local-dir: s3_play
-  acl: ''
+  acl: 'public_read'
   on:
     repo: buggythestudent/travis
